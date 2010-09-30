@@ -1,0 +1,95 @@
+body {
+	background: #E6EAE9;
+	color: #4f6b72;
+	font: 12px/1.5 "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+table {
+	margin: 2em 2%;
+	padding: 0;
+	width: 475px;
+}
+
+@media screen and (max-width: 640px) {
+	table {
+		width: auto;
+	}
+}
+
+caption {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0 0 1em 0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #fff;
+}
+
+th {
+	background: #CAE8EA url(../images/layout/table-th-01-bg.png) no-repeat 0 0;
+	border-bottom: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	color: #3B5055;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 0.5em 0.5em 0.5em 1em;
+	text-align: left;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #fff;
+	width: 22%;
+}
+
+th.nobg {
+	background: none;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	border-top: 0;
+	width: auto;
+}
+
+th.fecha {
+	background: #DEEFEE url(../images/layout/table-th-01-bg.png) no-repeat -2px -3px;
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	color: #3B5055;
+	font-style: italic;
+	width: auto;
+}
+
+	th.fecha a {
+		color: #c75f3e;
+		float: right;
+		font-style: normal;
+		text-decoration: none;
+	}
+
+td {
+	background: #fff;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	border-bottom: 1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	color: #4f6b72;
+	padding: 0.5em 0.5em 0.5em 1em;
+}
+
+td.alert {
+	background-image: url(../images/layout/bullet-red.png);
+}
+
+td.warning {
+	background-image: url(../images/layout/bullet-yellow.png);
+}
+
+td.ok {
+	background-image: url(../images/layout/bullet-green.png);
+}
+
+th.comida {
+	background: #fff;
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	color: #61838B;
+	font-weight: bold;
+	width: 33%;
+}
