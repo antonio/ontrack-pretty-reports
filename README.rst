@@ -12,7 +12,7 @@ While it is an excellent application, glucose *HTML* reports are (in my humble o
 useful, as they don't allow to check how you're doing in a glance.
 
 I would like to modify the report so that it becomes a kind of a spreadsheet, with cells colorized
-according to the glucose level in blood. Sadly, as stated in the `faq
+according to the glucose level in blood. Sadly, as stated in the `FAQ
 <http://www.gexperts.com/products/ontrack/faq.asp>`_ ::
 
   OnTrack is not open-source and the source code is not available, while we appreciate offers of
