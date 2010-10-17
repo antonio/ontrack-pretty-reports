@@ -1,0 +1,14 @@
+[limits]
+low = 70
+medium = 140
+high = 160
+
+[strings]
+breakfast = Desayuno
+after_breakfast = Después del desayuno
+lunch = Almuerzo
+after_lunch = Después del almuerzo
+dinner = Cena
+after_dinner = Después de la cena
+medication = Medication
+glucose = Glucose
