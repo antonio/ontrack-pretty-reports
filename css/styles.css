@@ -75,14 +75,18 @@ td {
 
 td.alert {
 	background-image: url(../images/layout/bullet-red.png);
+        background: #c00;
+        color: white;
 }
 
 td.warning {
 	background-image: url(../images/layout/bullet-yellow.png);
+        background: #ff0;
 }
 
 td.ok {
 	background-image: url(../images/layout/bullet-green.png);
+        background: #9f0;
 }
 
 th.comida {
